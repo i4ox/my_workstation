@@ -20,6 +20,7 @@ Here are some details about my setup:
 - WM: [i3](https://i3wm.org/)
 - Editor: [neovim](https://neovim.io/)
 ---
+- App menu: [Rofi](https://github.com/davatorium/rofi) 
 - Bar: [Polybar](https://github.com/polybar/polybar)
 - Hotkey Daemon: [sxhkd](https://github.com/baskerville/sxhkd)
 - Compositor: [Picom-FTLabs](https://github.com/FT-Labs/picom)
@@ -37,6 +38,7 @@ Here are some details about my setup:
 - tmux
 - gpick
 - tdrop
+- kitty
 
 # Docs
 
