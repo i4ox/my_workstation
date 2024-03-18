@@ -1,0 +1,65 @@
+[colors.primary]
+background = '#2E3440'
+foreground = '#D8DEE9'
+
+[colors.normal]
+black   = '#3B4252'
+red     = '#BF616A'
+green   = '#A3BE8C'
+yellow  = '#EBCB8B'
+blue    = '#81A1C1'
+magenta = '#B48EAD'
+cyan    = '#88C0D0'
+white   = '#E5E9F0'
+
+[colors.bright]
+black   = '#4C566A'
+red     = '#BF616A'
+green   = '#A3BE8C'
+yellow  = '#EBCB8B'
+blue    = '#81A1C1'
+magenta = '#B48EAD'
+cyan    = '#8FBCBB'
+white   = '#ECEFF4'
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[cursor.style]
+shape = "Block"
+
+[cursor.vi_mode_style]
+shape = "Beam"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "Iosevka NF"
+style = "Regular"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[window]
+opacity = 0.95
+decorations = "none"
+
+[window.dimensions]
+columns = 200
+lines = 50
+
+[window.padding]
+x = 7
+y = 0
+
