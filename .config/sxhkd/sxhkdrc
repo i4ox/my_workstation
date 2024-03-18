@@ -5,11 +5,15 @@ super + BackSpace
 
 # TDrop (scratchpad)
 super + shift + Return
-	tdrop -ma -A -w 100% -s dropdown alacritty
+	tdrop -ma -A -w 100% -s dropdown kitty
 
 # Terminal
 super + Return
 	alacritty
+
+# Application menu
+super + d
+	/bin/sh -c "~/.scripts/appmenu.sh"
 
 # Kill window(click on the window)
 super + shift + Escape
