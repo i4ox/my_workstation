@@ -41,3 +41,4 @@ Here are some details about my setup:
 # Docs
 
 1. [How to install Arch?](./docs/arch.md)
+2. [How to install all programming languages needed for DevOps? The right way!](docs/pl.md)

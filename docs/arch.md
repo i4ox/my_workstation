@@ -112,10 +112,9 @@ sed -i "s/# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/g" /etc/sudoers
 ## Network utils <a id="net_utils"></a>
 
 ```sh
-pacman -S net-tools iproute2 networkmanager iwd dhcpcd
+pacman -S net-tools iproute2 networkmanager wpa_supplicant dhcpcd
 systemctl enable NetworkManager.service
-echo "[device]" > /etc/NetworkManager/conf.d/nm.conf
-echo "wifi.backend=iwd" >> /etc/NetworkManager/conf.d/nm.conf
+systemctl enable dhcpcd
 ```
 
 ## Configure pacman <a id="pacman"></a>
